@@ -1,0 +1,1580 @@
+1.homepage
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Events Today<br>With fiesta</title>
+    <p style="background-image: url('img_events.jpg');">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+  <div class="logo">
+    <a href="home.html"><img src="logo.png" alt="Site Logo"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="upcoming.html">Upcoming Events</a></li>
+      <li><a href="pastevents.html">Past Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+    </header>
+ 
+    <main>
+        <section>
+            
+            
+        <section>
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li> 
+<aside><img src="img_concertboy.jpg" alt="music concert" width="500" height="600">
+
+                    <br>Music Festival 2024<br><time datetime="2024-04-04">April 4-7, 2024</time>
+                    <p>With so many ways to communicate at our disposal, we must not forget the transformative power of a live music experience and genuine human exchange.</p>
+                    <a href="#" class="button">Learn More</a>
+              </li>
+          </ul>
+        </section>
+        <section>
+            <h2>Past Events</h2>
+            <ul>
+                <li>
+                <img src="img_artgallery.jpg" alt="art gallery" width="450" height="280">
+                <br>Art Gallery<br>
+                <p>Thaltej, Ahmedabad<br>OCTOBER 4, 2023</p>
+
+                <img src="img_holifiesta.jpg" alt="holi fiesta" width="450" height="280">
+                 <br> Holi Fiesata<br>
+                    SBR, Ahmedabad
+                 <time datetime="2023-03-08">March 8,  2023</time>
+                <a href="see_more_page.html">See More</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+      <footer>
+          <h1>fiesta</h1>
+          <p>fiesta<br>While searching for value at Fiesta, also enjoy it just for the fun of it.</p>
+     <h3>Links</h3i
+          <p>Upcoming </p>
+          <p>Past Events</p>
+          <p>Gallery</h2>
+          <p>Reviews</p>
+          <p>About us</p>
+          <p>contact us</p> 
+     <h3>Contact Us</h3>
+            <p>Silveroak University, Ahmedabad, Gujarat, 382481</p>
+            <p>+923183561921</p>
+        </section>
+    <section>
+   <p>©2024 Copyright by Fiesta. All rights reserved.</p>
+   </section >       
+      
+     </footer>
+ </body>
+ </html>
+
+CSS
+ 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+main section {
+    flex-basis: 30%;
+    margin-bottom: 2rem;
+}
+
+main section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main li {
+    margin-bottom: 1rem;
+}
+
+main time {
+    font-weight: bold;
+    display: block;
+
+ a {
+  display: block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #3E8E41;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none
+
+}
+
+2.upcoming event page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiesta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+  <div class="logo">
+    <a href="home.html"><img src="logo.png" alt="Site Logo"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="upcoming.html">Upcoming Events</a></li>
+      <li><a href="pastevents.html">Past Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+     </header>
+ 
+    <main>
+        <section>
+            <title>fiesta</title>
+            <p style="background-image: url('img_concertboy.jpg');">
+            <h2>Music Festival</h2>
+            <h3>Bollywood, Punjabi, Soul, Sufi | 2hrs 30mins</h3>
+            <p>APRIL 4-7, 2024</p>
+            <p>Club Babylon, Ahemdabad</p>
+            <p>Vishal Mishra | B Praak</p>
+        </section>
+        <section>
+           <p>Experience The First Ever Harmony Fest, A Two Day Celebration Of Music That Promises To Ignite The City's<br>Soul With Electrifying Performances By a Lineup Of Diverse And Popular Artist. From 2nd And 3rd March,<br>Our Festival Will Transform Into A Vibrant Hub Of Rhythm And Melodies, Providing An Unforgettable<br>Experience For Music Enthusiasts.</p>
+            <a href="#" class="button">JOIN FIESTA</a>
+        </section>
+    </main>
+    <footer>
+         <h1>fiesta</h1>
+        <p>fiesta<br>While searching for value at Fiesta, also enjoy it just for the fun of it.</p>
+ <h3>Links</h3i
+          <p>Upcoming </p>
+          <p>Past Events</p>
+          <p>Gallery</h2>
+          <p>Reviews</p>
+          <p>About us</p>
+          <p>contact us</p>
+<h3>Contact Us</h3>
+            <p>Silveroak University, Ahmedabad, Gujarat, 382481</p>
+            <p>+923183561921</p>
+        </section>
+   <section>
+<p>©2024 Copyright by Fiesta. All rights reserved.</p>
+  </section >       
+      
+    </footer>
+</body>
+</html>
+
+CSS
+
+body {
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+ color: #333;
+}
+
+main {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ padding: 20px;
+}
+
+section {
+ flex: 1 1 48%;
+ margin-bottom: 20px;
+}
+
+section h2 {
+ margin: 0 0 10px;
+}
+
+a {
+ color: #4CAF50;
+ text-decoration: none;
+ border-bottom: 1px solid #4CAF50;
+ padding-bottom: 2px;
+ margin-right: 10px;
+}
+
+footer {
+ background-color: #333;
+ padding: 10px;
+ text-align: center;
+ color: white;
+}
+
+3.past events page
+
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Past events</title>
+     <p style="background-image: url('img_events.jpg');">
+
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+	<title>Past events</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			color: white;
+			padding: 10px 0;
+			text-align: center;
+		}
+		nav {
+			background-color: #f2f2f2;
+			padding: 10px;
+			text-align: center;
+		}
+		nav a {
+			color: #333;
+			text-decoration: none;
+			margin: 0 5px;
+		}
+		nav a:hover {
+			color: #666;
+		}
+		main {
+			padding: 20px;
+		}
+		footer {
+			background-color: #333;
+			color: white;
+			padding: 10px 0;
+			text-align: center;
+		}
+		.event {
+			border: 1px solid #ccc;
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+		.event h3 {
+			margin: 0 0 5px;
+		}
+		.event p {
+			margin: 0;
+		}
+	</style>
+</head>
+   <body>
+    <header>
+  <div class="logo">
+    <a href="home.html"><img src="logo.png" alt="Site Logo"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="upcoming.html">Upcoming Events</a></li>
+      <li><a href="pastevents.html">Past Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+    </header>
+ 
+	        <main>
+		     <div class="event">
+                        <img src="img_artgall.jpg" alt="art gallery" width="400" height="300">
+			<h3>fiesta Art Gallery</h3>
+			<p>Thaltej, Ahmedabad</p>
+			<p>OCTOBER 4, 2023</p> 
+                     </div>
+                     <div class="event">
+                        <img src="img_priparty.jpg" alt="privae party" width="400" height="300">
+			<p>Private Party</p>
+			<p>SBR, Ahmedabad</p>
+			<p>DECEMBER, 2023</p>
+                     </div>
+                     <div class="event">
+                        <img src="img_yogawork.jpg" alt="yoga workshop" width="400" height="300">
+			<p>Yoga Workshop</p>
+                        <p>SBR, Ahmedabad</p>
+			<p>DECEMBER, 2023</p>
+		     </div>
+		     <div class="event">
+                        <img src="img_holifestival.jpg" alt="holi festival" width="400" height="300">
+			<h3>Holi Fiesata</h3>
+			<p>SBR, Ahmedabad</p>
+			<p>MARCH 8, 2023</p>
+		     </div>
+		     <div class="event">
+                        <img src="img_corporateevent.jpg" alt="Corporate event" width="400" height="300">
+			<h3>Corporate Event</h3>
+			<p>Science city, Ahmedabad</p>
+			<p>DECEMBER, 2023</p>
+		     </div>
+		     <div class="event">
+                        <img src="img_poetryjam.jpg" alt="poetry jam" width="400" height="300">
+			<h3>Poetry Jam</h3>
+			<p>Science city, Ahmedabad</p>
+			<p>DECEMBER, 2023</p>
+		     </div>
+		     <div class="event">
+                        <img src="techfest.jpg" alt="tech festival" width="400" height="300">
+			<h3>Tech Festival</h3>
+			<p>Science city, Ahmedabad</p>
+			<p>DECEMBER, 2023</p>
+		     </div>
+		     <div class="event">
+                        <img src="img_chania.jpg" alt="Food fiesta" width="460" height="345">
+			<h3>Food Fiesta</h3>
+			<p>SBR, Ahmedabad</p>
+			<p>JANUARY, 2023</p>
+		     </div>
+		     <div class="event">
+                        <img src="img_pottery.jpg" alt="pottery workshop" width="460" height="345">
+			<h3>Pottery Workshop</h3>
+			<p>SBR, Ahmedabad</p>
+			<p>JANUARY, 2023</p>
+ <footer>
+         <h1>fiesta</h1>
+        <p>fiesta<br>While searching for value at Fiesta, also enjoy it just for the fun of it.</p>
+ <h3>Links</h3i
+          <p>Upcoming </p>
+          <p>Past Events</p>
+          <p>Gallery</h2>
+          <p>Reviews</p>
+          <p>About us</p>
+          <p>contact us</p>
+<h3>Contact Us</h3>
+            <p>Silveroak University, Ahmedabad, Gujarat, 382481</p>
+            <p>+923183561921</p>
+        </section>
+   <section>
+<p>©2024 Copyright by Fiesta. All rights reserved.</p>
+  </section >       
+      
+    </footer>
+</body>
+</html>
+
+4.Gallery page
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            cursor: pointer;
+            transition: transform .3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+   <header>
+  <div class="logo">
+    <a href="home.html"><img src="logo.png" alt="Site Logo"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="upcoming.html">Upcoming Events</a></li>
+      <li><a href="pastevents.html">Past Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+</header>
+ 
+    <h1>Gallery</h1>
+    <div class="gallery">
+        <img src="https://corpoevent.com/image1.jpg" alt="Image 1">
+        <img src="https://priparty.com/image2.jpg" alt="Image 2">
+        <img src="https://priparty.com/image3.jpg" alt="Image 3">
+        <img src="https://concert.com/image4.jpg" alt="Image 4">
+        <img src="https://concert.com/image5.jpg" alt="Image 5">
+        <img src="https://holievent.com/image6.jpg" alt="Image 6">
+        <img src="https://musicconc.com/image7.jpg" alt="Image 7">
+        <img src="https://pottery.com/image8.jpg" alt="Image 8">
+        <img src="https://concert.com/image9.jpg" alt="Image 9">
+        <img src="https://plants.com/image10.jpg" alt="Image 10">
+        <img src="https://techfest.com/image11.jpg" alt="Image 11">
+        <img src="https://poetryevent.com/image12.jpg" alt="Image 12">
+        <img src="https://carnival.com/image13.jpg" alt="Image 13">
+        <img src="https://evvent.com/image14.jpg" alt="Image 14">
+        <img src="https://yogawork.com/image15.jpg" alt="Image 15">
+        <img src="https://foodfiesta.com/image16.jpg" alt="Image 16">
+        <img src="https://evvent.com/image17.jpg" alt="Image 17">
+        <img src="https://foodcarni.com/image18.jpg" alt="Image 18">
+    </div>
+  
+  <footer>
+         <h1>fiesta</h1>
+        <p>fiesta<br>While searching for value at Fiesta, also enjoy it just for the fun of it.</p>
+ <h3>Links</h3i
+          <p>Upcoming </p>
+          <p>Past Events</p>
+          <p>Gallery</h2>
+          <p>Reviews</p>
+          <p>About us</p>
+          <p>contact us</p>
+<h3>Contact Us</h3>
+            <p>Silveroak University, Ahmedabad, Gujarat, 382481</p>
+            <p>+923183561921</p>
+        </section>
+   <section>
+<p>©2024 Copyright by Fiesta. All rights reserved.</p>
+  </section >       
+      
+    </footer>
+</body>
+</html>
+
+5.Review page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.rating {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.rating span {
+    display: block;
+}
+
+.rating span:first-child {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.reviews {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.review {
+    padding: 1rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.review p {
+    margin-bottom: 1rem;
+}
+
+.review span {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: green;
+}
+
+.write-review-button {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.write-review-button:hover {
+    background-color: #007bff;
+}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fiesta Review</title>
+      p { background-image: url('img_events.jpg');}
+</head>
+<body>
+  <header>
+  <div class="logo">
+    <a href="home.html"><img src="logo.png" alt="Site Logo"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="upcoming.html">Upcoming Events</a></li>
+      <li><a href="pastevents.html">Past Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+</header>
+ 
+    <div class="container">
+        <h1>What others think about the product</h1>
+        <div class="rating">
+            <span>⭐4.8</span>
+            <span>Average customer rating</span>
+        </div>
+        <div class="reviews">
+            <div class="review">
+                <p>Review 5: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+                <span>⭐⭐⭐⭐⭐</span>
+            </div>
+            <div class="review">
+                <p>Review 4: Ut quis ligula at nulla tempus convallis. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+                <span>⭐⭐⭐⭐</span>
+            </div> 
+            <div class="review">
+                <p>Review 3: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+                <span>⭐⭐⭐</span>
+            </div>
+            <div class="review">
+                <p>Review 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+                <span>⭐⭐</span>
+            </div>
+            <div class="review">
+                <p>Review 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+                <span>⭐</span>
+            </div>
+            
+             <!-- Add more reviews here -->
+        </div>
+        <a href="#" class="write-review-button">Write a review</a>
+    </div>
+  <footer>
+         <h1>fiesta</h1>
+        <p>fiesta<br>While searching for value at Fiesta, also enjoy it just for the fun of it.</p>
+ <h3>Links</h3i
+          <p>Upcoming </p>
+          <p>Past Events</p>
+          <p>Gallery</h2>
+          <p>Reviews</p>
+          <p>About us</p>
+          <p>contact us</p>
+<h3>Contact Us</h3>
+            <p>Silveroak University, Ahmedabad, Gujarat, 382481</p>
+            <p>+923183561921</p>
+        </section>
+   <section>
+<p>©2024 Copyright by Fiesta. All rights reserved.</p>
+  </section >       
+      
+    </footer>
+</body>
+</html>
+
+6.About us page
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About fiesta</title>
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            color: #cccccc;
+            font-weight: bold;
+        }
+
+        article {
+            float: right;
+            width: 70%;
+            padding: 20px;
+        }
+
+        aside {
+            float: left;
+            width: 25%;
+            padding: 20px;
+            background-color: #333;
+            color: #ffffff;
+        }
+
+        footer {
+            clear: both;
+            background: #999999;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+  <div class="logo">
+    <a href="home.html"><img src="logo.png" alt="Site Logo"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="upcoming.html">Upcoming Events</a></li>
+      <li><a href="pastevents.html">Past Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+    </header>
+ 
+
+<article>
+    <main>
+      <section>
+        <p style="background-image: url('img_event.jpg');">Through a series of invitation-only events, Fiesta fosters a global community of entrepreneurs, athletes, artists, authors, chefs, engineers, explorers, philanthropists, spiritual leaders,scientists, and beyond.</p>
+      
+    
+    <h2>Our Community</h2><aside><img src="img_community.jpg" alt="team community" width="480" height="280">                                                                                                                                          <p>We pride ourselves on community design, gathering around collective values, shared practices, and thoughtful live events.</p>
+
+    <h2>Our Story</h2><aside><img src="img_teamjpg" alt="team group" width="480" height="280">
+<p>we understand the challenges and stress that often come with event planning. That's why we embarked on a mission to revolutionize the way people plan and celebrate special moments.</p>
+
+    <h2>What Sets Us Apart</h2><aside><img src="img_party.jpg" alt="creative evets group" width="480" height="280">
+<p>At the core of Fiesta's philosophy is a commitment to delivering exceptional service and unparalleled convenience. We believe that every event deserves meticulous planning and attention to detail.</p>
+    
+    <h2>why Choose Fiesta</h2><aside><img src="img_privateparty.jpg" alt="private party" width="480" height="280">
+<p>Diverse venues<br>Customised Catering<br>Endless Possibilities<br>Corporate Excellence</p>
+    <section>
+ <footer>
+         <h1>fiesta</h1>
+        <p>fiesta<br>While searching for value at Fiesta, also enjoy it just for the fun of it.</p>
+ <h3>Links</h3i
+          <p>Upcoming </p>
+          <p>Past Events</p>
+          <p>Gallery</h2>
+          <p>Reviews</p>
+          <p>About us</p>
+          <p>contact us</p>
+<h3>Contact Us</h3>
+            <p>Silveroak University, Ahmedabad, Gujarat, 382481</p>
+            <p>+923183561921</p>
+        </section>
+   <section>
+<p>©2024 Copyright by Fiesta. All rights reserved.</p>
+  </section >       
+      
+    </footer>
+</body>
+</html>
+
+7.Contact Us page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fiesta - Contact Us</title>
+     
+    header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.links {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.links h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.links ul {
+    list-style-type
+</head>
+<body>
+     <header>
+  <div class="logo">
+    <a href="home.html"><img src="logo.png" alt="Site Logo"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="upcoming.html">Upcoming Events</a></li>
+      <li><a href="pastevents.html">Past Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+    </header>
+ 
+     <main>
+        <h2>Contact Us</h2>
+        <form action="/submit_form" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        </main>
+    <section>
+        <footer>
+         <h1>fiesta</h1>
+        <p>fiesta<br>While searching for value at Fiesta, also enjoy it just for the fun of it.</p>
+ <h3>Links</h3i
+          <p>Upcoming </p>
+          <p>Past Events</p>
+          <p>Gallery</h2>
+          <p>Reviews</p>
+          <p>About us</p>
+          <p>contact us</p>
+<h3>Contact Us</h3>
+            <p>Silveroak University, Ahmedabad, Gujarat, 382481</p>
+            <p>+923183561921</p>
+        </section>
+   <section>
+<p>©2024 Copyright by Fiesta. All rights reserved.</p>
+  </section >       
+      
+   </footer>
+</body>
+</html>   
+
+8.Login page    
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login</title>
+   
+    header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+ 
+</head>
+<body>
+    <header>
+  <div class="logo">
+    <a href="home.html"><img src="logo.png" alt="Site Logo"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="upcoming.html">Upcoming Events</a></li>
+      <li><a href="pastevents.html">Past Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+    </header>
+ 
+    <main>
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <label for="email">E-Mail:</label><br>
+            <input type="email" id="email" name="email" value="naiffarooqui037@gmail.com" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br>
+            <input type="submit" value="Login">
+        </form>
+        <p>OR</p>
+        <a href="/signup">Don't have an account? Sign Up</a>
+    </main>
+     <footer>
+        <section>
+ <h1>fiesta</h1>
+        <p>fiesta<br>While searching for value at Fiesta, also enjoy it just for the fun of it.</p>
+      <h3>Links</h3i
+          <p>Upcoming </p>
+          <p>Past Events</p>
+          <p>Gallery</h2>
+          <p>Reviews</p>
+          <p>About us</p>
+          <p>contact us</p>
+      <h3>Contact Us</h3>
+            <p>Silveroak University, Ahmedabad, Gujarat, 382481</p>
+            <p>+923183561921</p>
+        </section>
+   <section>
+     <p>©2024 Copyright by Fiesta. All rights reserved.</p>
+   </section>
+ </footer>
+
+</body>
+</html> 
+
+9.Sign Up
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign Up</title>
+   
+    header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+</head>
+<body>
+        <header>
+  <div class="logo">
+    <a href="home.html"><img src="logo.png" alt="Site Logo"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="upcoming.html">Upcoming Events</a></li>
+      <li><a href="pastevents.html">Past Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+    </header>
+ 
+    <main>
+        <h2>Sign Up</h2>
+        <form action="/signup" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br>
+            <label for="confirm-password">Confirm Password:</label><br>
+            <input type="password" id="confirm-password" name="confirm-password" required><br>
+            <input type="submit" value="Sign Up">
+        </form>
+        <p>OR</p>
+        <a href="/login">Already have an account? Login</a>
+    </main>
+      <footer>
+        <section>
+ <h1>fiesta</h1>
+        <p>fiesta<br>While searching for value at Fiesta, also enjoy it just for the fun of it.</p>
+      <h3>Links</h3i
+          <p>Upcoming </p>
+          <p>Past Events</p>
+          <p>Gallery</h2>
+          <p>Reviews</p>
+          <p>About us</p>
+          <p>contact us</p>
+      <h3>Contact Us</h3>
+            <p>Silveroak University, Ahmedabad, Gujarat, 382481</p>
+            <p>+923183561921</p>
+        </section>
+   <section>
+     <p>©2024 Copyright by Fiesta. All rights reserved.</p>
+   </section>
+ </footer>
+</body>
+</html>
+
+10. Join Page
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Join Fiesta</title>
+   
+       header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+   body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+   background-color: #45a049;
+</head>
+<body>
+      <header>
+  <div class="logo">
+    <a href="home.html"><img src="logo.png" alt="Site Logo"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="upcoming.html">Upcoming Events</a></li>
+      <li><a href="pastevents.html">Past Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+    </header>
+
+        <main>
+        <h2>Apply to Join</h2>
+        <form action="/join" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">E-mail*:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mobile">Mobile:</label><br>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" title="Please enter a 10-digit mobile number"><br>
+            <label for="agree">
+                <input type="checkbox" id="agree" name="agree" required>
+                I agree to receive occasional communications from Summit Series. I understand I can withdraw my consent at any time. Please contact <a href="mailto:hello@fiesta.co">hello@fiesta.co</a> for more information.
+            </label><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>Already a member? <a href="/login">Login</a></p>
+        <div class="links">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="/upcoming">Upcoming Events</a></li>
+                <li><a href="/past">Past Events</a></li>
+                <li><a href="/gallery">Gallery</a></li>
+                <li><a href="/reviews">Reviews</a></li>
+            </ul>
+        </div>
+    </main>
+        <footer>
+        <section>
+ <h1>fiesta</h1>
+        <p>fiesta<br>While searching for value at Fiesta, also enjoy it just for the fun of it.</p>
+      <h3>Links</h3i
+          <p>Upcoming </p>
+          <p>Past Events</p>
+          <p>Gallery</h2>
+          <p>Reviews</p>
+          <p>About us</p>
+          <p>contact us</p>
+      <h3>Contact Us</h3>
+            <p>Silveroak University, Ahmedabad, Gujarat, 382481</p>
+            <p>+923183561921</p>
+        </section>
+   <section>
+     <p>©2024 Copyright by Fiesta. All rights reserved.</p>
+   </section>
+       </footer>
+</body>
+</html>
+
